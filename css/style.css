@@ -16,13 +16,13 @@ nav  ul li{
 	display: inline;
 	padding-left: 20%;
 }
-a {
+nav a {
 	font-weight: 700;
 	color: #4196B4;
 	text-decoration: none;
 	font-size: 130%;
 }
-a:hover {
+nav a:hover {
 	color: #FF7E2E;
 	font-style; italic;
 }
@@ -42,4 +42,66 @@ nav {
 	background-color: #4196B4;
 	padding-top: 5px;
 	padding-bottom: 20px;
+	height: 220px;
+}
+.video_placeholder {
+	background-color: black;
+	width: 320px;
+	height: 180px;
+	margin-left: 5%;
+	margin-top: 10px;
+	float: left;
+}
+#main_content img {
+	position: relative;
+	margin-top: 10px;
+	float:left;
+	display:inline;
+}
+#main_content {
+	background-image: url('images/content_triangle.png');
+	background-color: #4196B4;
+	width: 100%;
+	float:right;
+	margin-top: 20px;
+}
+#main_content img:last-child {
+	float: right;
+}
+#blue_triangle img{
+	margin-top: 10px;
+	width: 100%;
+}
+.content_triangle{
+	width: 45%;
+}
+#contact p {
+	color: #4196B4;
+	margin-left: 30%;
+}
+#contact a {
+	color: #FF7E2E;
+	text-decoration: none;
+}
+#contact a:hover {
+	color: #4196B4;
+}
+#contact {
+	float: left;
+	margin-top: 20px;
+	border-top: 3px #4196B4 solid;
+	border-bottom: 3px #4196B4 solid;
+}
+#contact p:first-child {
+	padding-top: 20px;
+}
+#contact p:last-child {
+	padding-bottom: 20px;
+}
+footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+footer p {
+	color: #FF7E2E;
 }
