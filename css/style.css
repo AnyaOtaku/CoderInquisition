@@ -6,6 +6,10 @@ body {
 	background-image:url('../images/bg_pattern.png');
 	background-repeat: repeat;
 	font-family: 'Lato', sans-serif;
+	line-height: 130%;
+}
+img {
+	max-width: 500px;
 }
 #logo {
 	max-width: 20%;
@@ -46,8 +50,8 @@ nav {
 }
 .video_placeholder {
 	background-color: black;
-	width: 320px;
-	height: 180px;
+	width: 27%;
+	height: 80%;
 	margin-left: 5%;
 	margin-top: 10px;
 	float: left;
@@ -59,8 +63,6 @@ nav {
 	display:inline;
 }
 #main_content {
-	background-image: url('images/content_triangle.png');
-	background-color: #4196B4;
 	width: 100%;
 	float:right;
 	margin-top: 20px;
@@ -72,10 +74,28 @@ nav {
 	margin-top: 10px;
 	width: 100%;
 }
+#our_videos img {
+	position: absolute;
+	float:left;
+	width: 40%;
+}
+#our_videos img:hover {
+	opacity: 0;
+}
+#interview_tricks img {
+	position: absolute;
+	float: left;
+	width: 40%;
+	margin-left: 50%;
+}
+#interview_tricks img:hover {
+	opacity: 0;
+}
 .content_triangle{
 	width: 45%;
 }
 #contact p {
+	float: left;
 	color: #4196B4;
 	margin-left: 30%;
 }
@@ -90,7 +110,6 @@ nav {
 	float: left;
 	margin-top: 20px;
 	border-top: 3px #4196B4 solid;
-	border-bottom: 3px #4196B4 solid;
 }
 #contact p:first-child {
 	padding-top: 20px;
@@ -99,9 +118,62 @@ nav {
 	padding-bottom: 20px;
 }
 footer {
+	margin-top: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	border-top: 3px #4196B4 solid;
 }
 footer p {
 	color: #FF7E2E;
+	padding-bottom: 30px;
+	padding-top: 20px;
 }
+/*#content_selection img:first-child {
+	padding-left: 10%;*/
+}
+#tips img {
+    opacity: 1;
+    transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    -webkit-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+}
+#tips img:hover {
+	opacity: 0;
+}
+#tips img {
+	position: absolute;
+	width: 40%;
+	padding-left: 5%;
+	padding-top: 20px;
+	float: left;
+}
+#interviews img {
+	position: absolute;
+	width: 40%;
+	padding-left: 50%;
+	padding-top: 20px;
+	float: right;
+ }
+ #interviews img:first-child {
+	opacity: 1;
+	transition: opacity .3s ease-out;
+	-moz-transition: opacity .3s ease-out;
+	-webkit-transition: opacity .3s ease-out;
+	-o-transition: opacity .3s ease-out;
+ }
+ #interviews img:hover {
+	opacity: 0;
+ }
+ #about p {
+	color: #4196B4;
+	padding-left: 20%;
+	padding-right: 5%;
+	padding-top: 10px;
+ }
+ #about h1 {
+	color: #FF7E2E;
+	font-size: 200%;
+	padding-top: 50px;
+	padding-left: 20%;
+ }
