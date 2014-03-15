@@ -46,7 +46,8 @@ nav {
 	background-color: #4196B4;
 	padding-top: 5px;
 	padding-bottom: 20px;
-	height: 220px;
+	/*height: 220px;*/
+    height: 550px;      /*My Changes... Sorry Tess for touching your stuff*/
 }
 .video_placeholder {
 	background-color: black;
@@ -58,7 +59,8 @@ nav {
 }
 #main_content img {
 	position: relative;
-	margin-top: 10px;
+	margin-top: 10%;
+    padding-bottom: 10%;
 	float:left;
 	display:inline;
 }
@@ -78,6 +80,7 @@ nav {
 	position: absolute;
 	float:left;
 	width: 40%;
+    /*margin-top: 10%;*/        /*My changes*/
 }
 #our_videos img:hover {
 	opacity: 0;
@@ -87,6 +90,7 @@ nav {
 	float: left;
 	width: 40%;
 	margin-left: 50%;
+    /*margin-top: 10%;*/        /*My changes again*/
 }
 #interview_tricks img:hover {
 	opacity: 0;
@@ -128,8 +132,8 @@ footer p {
 	padding-bottom: 30px;
 	padding-top: 20px;
 }
-/*#content_selection img:first-child {
-	padding-left: 10%;*/
+#content_selection img:first-child {
+	padding-left: 10%;
 }
 #tips img {
     opacity: 1;
