@@ -46,9 +46,15 @@ nav {
 	background-color: #4196B4;
 	padding-top: 5px;
 	padding-bottom: 20px;
-	/*height: 220px;*/
-    height: 550px;      /*My Changes... Sorry Tess for touching your stuff*/
+    height: 550px;     
 }
+/*#latest_vidoes {
+	background-color: #4196B4;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	margin-top: 50px;
+}*/
+
 .video_placeholder {
 	background-color: black;
 	width: 27%;
@@ -57,29 +63,22 @@ nav {
 	margin-top: 10px;
 	float: left;
 }
-#main_content img {
-	position: relative;
-	margin-top: 10%;
-    padding-bottom: 10%;
-	float:left;
+#video_links img {
+	width: 40%;
 	display:inline;
+	float: left;
+	padding-top: 20px;
 }
-#main_content {
-	width: 100%;
-	float:right;
-	margin-top: 20px;
+#video_links img:first-child {
+	margin-left: 9%;
 }
-#main_content img:last-child {
-	float: right;
-}
-#blue_triangle img{
-	margin-top: 10px;
-	width: 100%;
+#video_links img:last-child {
+	padding-left: 2%;
 }
 #our_videos img {
 	position: absolute;
 	float:left;
-	width: 40%;
+	width: 30%;
     /*margin-top: 10%;*/        /*My changes*/
 }
 #our_videos img:hover {
@@ -94,9 +93,6 @@ nav {
 }
 #interview_tricks img:hover {
 	opacity: 0;
-}
-.content_triangle{
-	width: 45%;
 }
 #contact p {
 	float: left;
@@ -120,6 +116,7 @@ nav {
 }
 #contact p:last-child {
 	padding-bottom: 20px;
+	padding-top: 10px;
 }
 footer {
 	margin-top: 20px;
@@ -180,4 +177,18 @@ footer p {
 	font-size: 200%;
 	padding-top: 50px;
 	padding-left: 20%;
+ }
+ #video {
+	margin-left: 20%;
+ }
+ #video b {
+	color: #FF7E2E;
+	font-size: 150%;
+ }
+ #video a {
+	color: #4196B4;
+	font-style: none;
+ }
+ #video a:hover {
+	color: #FF7E2E;
  }
