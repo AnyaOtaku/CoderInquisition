@@ -2,6 +2,7 @@ var links = new Array();
 links[0] = 'CsGYh8AacgY';
 links[1] = 'QFCSXr6qnv4';
 links[2] = 'eaCCkfjPm0o';
+links[3] = 'Am-bQc1X6dY';
 
 // My stuff
 function playOurVideos(clip)

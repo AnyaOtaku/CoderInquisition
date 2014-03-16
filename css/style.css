@@ -35,6 +35,18 @@ nav {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+footer {
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 3px #4196B4 solid;
+}
+footer p {
+	color: #FF7E2E;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+												/* HOME PAGE STYLE */
 #latest_videos h1 {
 	font-size: 200%;
 	color: #E6E6E6;
@@ -43,18 +55,23 @@ nav {
 }
 #latest_videos {
 	margin-top: 5px;
-	background-color: #4196B4;
+	/*background-color: #4196B4;*/
 	padding-top: 5px;
-	padding-bottom: 20px;
-    height: 550px;     
+	/*margin-bottom: -200px;*/
+   /*height: 550px; */ 
+	/*border-top: 20px #4196B4 solid;*/
+	/*border-bottom: 20px #4196B4 solid;*/
 }
-/*#latest_vidoes {
-	background-color: #4196B4;
-	padding-top: 5px;
-	padding-bottom: 20px;
-	margin-top: 50px;
-}*/
-
+#heading1 {
+	padding-top:10px;
+	background-color:#4196B4;
+	height: 40px;
+}
+#slider {
+	/*padding-bottom: 200px;*/
+	/*border-top: 20px #4196B4 solid;*/
+	border-bottom: 20px #4196B4 solid;
+}
 .video_placeholder {
 	background-color: black;
 	width: 27%;
@@ -63,23 +80,21 @@ nav {
 	margin-top: 10px;
 	float: left;
 }
-#video_links img {
+#video_links  img {
 	width: 40%;
 	display:inline;
 	float: left;
-	padding-top: 20px;
 }
 #video_links img:first-child {
 	margin-left: 9%;
 }
-#video_links img:last-child {
+#video_links  img:last-child {
 	padding-left: 2%;
 }
 #our_videos img {
 	position: absolute;
 	float:left;
 	width: 30%;
-    /*margin-top: 10%;*/        /*My changes*/
 }
 #our_videos img:hover {
 	opacity: 0;
@@ -89,10 +104,14 @@ nav {
 	float: left;
 	width: 40%;
 	margin-left: 50%;
-    /*margin-top: 10%;*/        /*My changes again*/
 }
 #interview_tricks img:hover {
 	opacity: 0;
+}
+#contact {
+	float: left;
+	margin-top: 20px;
+	border-top: 3px #4196B4 solid;
 }
 #contact p {
 	float: left;
@@ -106,11 +125,7 @@ nav {
 #contact a:hover {
 	color: #4196B4;
 }
-#contact {
-	float: left;
-	margin-top: 20px;
-	border-top: 3px #4196B4 solid;
-}
+
 #contact p:first-child {
 	padding-top: 20px;
 }
@@ -118,17 +133,9 @@ nav {
 	padding-bottom: 20px;
 	padding-top: 10px;
 }
-footer {
-	margin-top: 20px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	border-top: 3px #4196B4 solid;
-}
-footer p {
-	color: #FF7E2E;
-	padding-bottom: 30px;
-	padding-top: 20px;
-}
+												/* HOME PAGE MOBILE */
+
+												/* VIDEOS PAGE */
 #content_selection img:first-child {
 	padding-left: 10%;
 }
@@ -166,6 +173,24 @@ footer p {
  #interviews img:hover {
 	opacity: 0;
  }
+
+ #video {
+	margin-left: 20%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+ }
+ #video b {
+	color: #FF7E2E;
+	font-size: 150%;
+ }
+ #video a {
+	color: #4196B4;
+	text-decoration: none;
+ }
+ #video a:hover {
+	color: #FF7E2E;
+}
+											/* ABOUT PAGE */
  #about p {
 	color: #4196B4;
 	padding-left: 20%;
@@ -177,18 +202,4 @@ footer p {
 	font-size: 200%;
 	padding-top: 50px;
 	padding-left: 20%;
- }
- #video {
-	margin-left: 20%;
- }
- #video b {
-	color: #FF7E2E;
-	font-size: 150%;
- }
- #video a {
-	color: #4196B4;
-	font-style: none;
- }
- #video a:hover {
-	color: #FF7E2E;
  }
