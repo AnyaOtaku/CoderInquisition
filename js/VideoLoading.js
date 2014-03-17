@@ -1,8 +1,6 @@
 var links = new Array();
-links[0] = 'CsGYh8AacgY';
-links[1] = 'QFCSXr6qnv4';
-links[2] = 'eaCCkfjPm0o';
-links[3] = 'Am-bQc1X6dY';
+links[0] = 'njVFYejpTco';
+links[1] = 'csvlxz6IhvY';
 
 // My stuff
 function playOurVideos(clip)
@@ -37,4 +35,4 @@ function playOurVideos(clip)
 	next.title = n; 
 }
 
-window.onload = playOurVideos('CsGYh8AacgY');
+window.onload = playOurVideos('csvlxz6IhvY');

@@ -215,6 +215,9 @@ footer p {
  #video a:hover {
 	color: #FF7E2E;
 }
+#video a:last-child {
+	padding-left: 65%;
+}
 											/* ABOUT PAGE */
  #about p {
 	float: left;
