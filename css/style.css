@@ -239,3 +239,17 @@ footer p {
 		padding-left: 5%;
 	}
  }
+										/* INDIVIDUAL VIDEOS PAGES */
+#question {
+	background-image: url('../images/question_box.png');
+	background-repeat: no-repeat;
+	height: 185px;
+	margin-left: 12%;
+	margin-top: 20px;
+	font-size: 300%;
+	font-weight: 700;
+	color: #E6E6E6;
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-top: 20px;
+}
