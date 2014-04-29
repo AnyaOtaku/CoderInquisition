@@ -199,7 +199,7 @@ footer p {
 	opacity: 0;
  }
 
- #video {
+ /* #video {
 	margin-left: 20%;
 	margin-top: 20px;
 	margin-bottom: 30px;
@@ -217,7 +217,7 @@ footer p {
 }
 #video a:last-child {
 	padding-left: 65%;
-}
+} */
 											/* ABOUT PAGE */
  #about p {
 	float: left;
@@ -252,4 +252,40 @@ footer p {
 	padding-left: 7%;
 	padding-right: 7%;
 	padding-top: 20px;
+}
+#video {
+	float: left;
+	padding-left: 12%;
+	padding-bottom: 30px;
+}
+#video_info {
+	float:left;
+	width: 35%;
+	color: #4196B4;
+	padding-left: 2%;
+}
+#video_info p {
+	padding-bottom: 10px;
+}
+									/* NEW VIDEOS PAGE */
+#our_videos  {
+	font-size: 200%;
+	color: #FF7E2E;
+	margin-left: 12%;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+#videos_list {
+	background-color: #4196B4;
+	color: #E6E6E6;
+	width: 70%;
+	margin-left: 12%;
+}
+#videos_list h2 {
+	size: 120%;
+	padding-left: 5%;
+	padding-top: 20px;
+}
+#videos_list h2:last-child {
+	padding-bottom: 20px;
 }
