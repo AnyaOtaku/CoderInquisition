@@ -289,3 +289,19 @@ footer p {
 #videos_list h2:last-child {
 	padding-bottom: 20px;
 }
+.video_name {
+	background-color:#4196B4;
+	font-size: 130%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 3%;
+}
+.video_description {
+	background-color: #E6E6E6;
+}
+.video_description p {
+	padding-left: 5%;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	color: #FF7E2E;
+}
